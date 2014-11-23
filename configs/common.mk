@@ -8,3 +8,7 @@ PRODUCT_COPY_FILES += \
 # Use prebuilt Desk Clock
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/app/DeskClockGoogle/DeskClockGoogle.apk:system/app/DeskClockGoogle/DeskClockGoogle.apk
+
+# Use prebuilt Contacts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/priv-app/Contacts/Contacts.apk:system/priv-app/Contacts/Contacts.apk
